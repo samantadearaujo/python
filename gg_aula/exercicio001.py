@@ -31,8 +31,26 @@ print('A média %0.2f' %media)
 
 5.Faça um Programa que converta metros para centímetros.
 
-6.Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+metros = float(input('Informe o metro: '))
 
+cent = metros * 100
+
+print('Centimentos: {}' .format(cent))
+
+
+6.Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+pi * ( r * r)
+'''
+raio = float(input('Informe o raio de um círculo:'))
+pi = 3.14
+
+area = pi * ( raio * raio)
+
+print('Mostre a sua área: {}' .format(area))
+
+
+
+'''
 7.Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
 
 8.Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
@@ -79,5 +97,6 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
 
 18.Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps)
 , calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
+'''
 
 
